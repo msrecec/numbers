@@ -1,0 +1,42 @@
+CreateTraining: width:5,height:5,type:RGB
+Input: image:./numbers/0.png, identity:0
+Input: image:./numbers/1.png, identity:1
+Input: image:./numbers/2.png, identity:2
+Input: image:./numbers/3.png, identity:3
+Input: image:./numbers/4.png, identity:4
+Input: image:./numbers/5.png, identity:5
+Input: image:./numbers/6.png, identity:6
+Input: image:./numbers/7.png, identity:7
+Input: image:./numbers/8.png, identity:8
+Input: image:./numbers/9.png, identity:9
+Input: image:./numbers/slash.png, identity:/
+Input: image:./numbers/dash.png, identity:-
+Input: image:./numbers/01.png, identity:0
+Input: image:./numbers/11.png, identity:1
+Input: image:./numbers/21.png, identity:2
+Input: image:./numbers/31.png, identity:3
+Input: image:./numbers/41.png, identity:4
+Input: image:./numbers/51.png, identity:5
+Input: image:./numbers/61.png, identity:6
+Input: image:./numbers/71.png, identity:7
+Input: image:./numbers/81.png, identity:8
+Input: image:./numbers/91.png, identity:9
+Input: image:./numbers/slash1.png, identity:/
+Input: image:./numbers/dash1.png, identity:-
+Input: image:./numbers/02.png, identity:0
+Input: image:./numbers/12.png, identity:1
+Input: image:./numbers/22.png, identity:2
+Input: image:./numbers/32.png, identity:3
+Input: image:./numbers/42.png, identity:4
+Input: image:./numbers/52.png, identity:5
+Input: image:./numbers/62.png, identity:6
+Input: image:./numbers/72.png, identity:7
+Input: image:./numbers/82.png, identity:8
+Input: image:./numbers/92.png, identity:9
+Input: image:./numbers/slash2.png, identity:/
+Input: image:./numbers/dash2.png, identity:-
+Network: hidden1:50, hidden2:0
+Train: Mode:console, Minutes:1, StrategyError:0.25, StrategyCycles:50
+Whatis: image:./numbers/first.png
+Whatis: image:./numbers/second.png
+Whatis: image:./numbers/third.png
