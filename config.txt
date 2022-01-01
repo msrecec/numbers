@@ -35,7 +35,7 @@ Input: image:./numbers/82.png, identity:8
 Input: image:./numbers/92.png, identity:9
 Input: image:./numbers/slash2.png, identity:/
 Input: image:./numbers/dash2.png, identity:-
-Network: hidden1:50, hidden2:0
+Network: hidden1:30, hidden2:0
 Train: Mode:console, Minutes:1, StrategyError:0.25, StrategyCycles:50
 Whatis: image:./numbers/first.png
 Whatis: image:./numbers/second.png
